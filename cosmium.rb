@@ -5,11 +5,11 @@
 class Cosmium < Formula
   desc ""
   homepage "https://github.com/pikami/cosmium"
-  version "0.1.24"
+  version "0.1.25"
 
   on_macos do
-    url "https://github.com/pikami/cosmium/releases/download/0.1.24/cosmium_0.1.24_darwin_all.tar.gz"
-    sha256 "7c43943f6973dadf223ff638ba9fdf77de733ec01f0625c80247782560c0d051"
+    url "https://github.com/pikami/cosmium/releases/download/0.1.25/cosmium_0.1.25_darwin_all.tar.gz"
+    sha256 "766c84509b02d9a0eddc091bcc786fa92b414c72bfe870c693eb5809e12960c9"
 
     def install
       bin.install "cosmium"
@@ -19,8 +19,8 @@ class Cosmium < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/pikami/cosmium/releases/download/0.1.24/cosmium_0.1.24_linux_amd64.tar.gz"
-        sha256 "950e5707de65b4007f8a8c0724d0ae85036a748e3d3a690e2d09d3184cf5d521"
+        url "https://github.com/pikami/cosmium/releases/download/0.1.25/cosmium_0.1.25_linux_amd64.tar.gz"
+        sha256 "6ee7676ae3dbca8872742c67b396c8d7406bc7ffd381591e68fa4e35c6eba509"
 
         def install
           bin.install "cosmium"
@@ -29,8 +29,8 @@ class Cosmium < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/pikami/cosmium/releases/download/0.1.24/cosmium_0.1.24_linux_arm64.tar.gz"
-        sha256 "bffb0bdd80c199536bdbba261b219b9bafdcad17ad888c7dab8a8979710cb7a3"
+        url "https://github.com/pikami/cosmium/releases/download/0.1.25/cosmium_0.1.25_linux_arm64.tar.gz"
+        sha256 "b910e3ea83c46b18d8055ff5a07e42dc7eb62ecd79737db788be07207ad0bf7f"
 
         def install
           bin.install "cosmium"
